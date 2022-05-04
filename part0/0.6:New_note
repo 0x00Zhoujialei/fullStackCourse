@@ -1,0 +1,12 @@
+title 0.6: New note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over browser
+post xhr request with payload that user inputs
+end note
+server->browser: {"message":"note created"}
+note over browser
+rerender the note list
+end note
+
+
